@@ -30,7 +30,6 @@ class ESPBLE {
   ESPBLE._internal();
 
   Uint8List _getWiFiConfigDataToWrite() {
-    //add actual wifi config. hope u don't mind me seeinf the wifi password. to se if it's connecting to wifi
     final ssid = 'Raees'.codeUnits;
     final password = 'Kattali'.codeUnits;
     final startHeader = [0x08, 0x02, 0x62];
